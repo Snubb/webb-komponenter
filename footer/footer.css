@@ -1,0 +1,12 @@
+footer {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.feet-card {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
