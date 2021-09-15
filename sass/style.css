@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
+.container {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar {
+  min-height: 3rem;
+  background-color: #7fffd4;
+  font-size: 1.6rem;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 24rem) {
+  .navbar-inner, .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.nav-item {
+  padding-left: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  border-style: solid;
+  justify-content: space-between;
+  margin-right: 2rem;
+  padding: 3px;
+  padding-top: 0;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  border-width: 2px;
+  width: 33%;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card-cta {
+  width: 40%;
+}
+.card-right {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+}
+.card > h1 {
+  font-size: 2rem;
+}
+.card > img {
+  width: 100%;
+}
+.card > p {
+  display: flex;
+  width: auto;
+}
+.card > button {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+.cta {
+  background-image: url("images/TE_19.jpg");
+  width: 100%;
+  color: #a70000;
+  position: relative;
+  z-index: 0;
+}
+.cta h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 2rem;
+  z-index: 1;
+}
+.cta button {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #a70000b3;
+  border-style: none;
+  margin: 2rem;
+  margin-left: 0;
+}
+.cta button:hover {
+  text-transform: uppercase;
+}
+.cta button:active {
+  width: 100%;
+  height: 50rem;
+  transform: translateY(-400px);
+  background-image: url(../cta/images/Evil_kirb.jpg);
+  background-size: contain;
+}
+.cta-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(127, 255, 212, 0.3);
+  z-index: -1;
+}
+
+.right {
+  text-align: right;
+  z-index: 10;
+}
+.right p {
+  font-size: 3rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .cta > h1 {
+    font-size: 3rem;
+  }
+
+  .right > p {
+    font-size: 2rem;
+  }
+}
+footer {
+  background-color: #363636;
+  color: white;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.feet-card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.feet-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */

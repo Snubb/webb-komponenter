@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.feet-card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.feet-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}

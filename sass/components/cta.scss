@@ -1,0 +1,68 @@
+.cta {
+    background-image: url("images/TE_19.jpg");
+    width: 100%;
+    color: #a70000;
+    position: relative;
+    z-index: 0;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 2rem;
+        z-index: 1;
+    }
+
+    button {
+        font-size: 1.5rem;
+        width: 100%;
+        height: 5rem;
+        background-color: #a70000b3;
+        border-style: none;
+        margin: 2rem;
+        margin-left: 0;
+    }
+
+    button:hover {
+        text-transform: uppercase;
+    }
+
+    button:active {
+        width: 100%;
+        height: 50rem;
+        transform: translateY(-400px);
+        background-image: url(../cta/images/Evil_kirb.jpg);
+        background-size: contain;
+    }
+
+    &-filter {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(127, 255, 212, 0.3);
+        z-index: -1;
+    }
+
+
+}
+
+.right {
+    text-align: right;
+    z-index: 10;
+
+    p {
+        font-size: 3rem;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .cta > h1 {
+        font-size: 3rem;
+    }
+
+    .right > p {
+        font-size: 2rem;
+    }
+}
